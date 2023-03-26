@@ -19,7 +19,7 @@ async function openChrome() {
 
 function randomWebSite(){
     let index = Math.floor(Math.random()*10);
-    if(index < 8){
+    if(index < 6){
         return "https://google.com"
     }else{
         return "https://thesecatsdonotexist.com"
